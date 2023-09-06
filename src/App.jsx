@@ -5,7 +5,10 @@ import "./App.css";
 function App() {
   const [color, setColor] = useState("black");
   const getColor = () => {
-    return color == "red" || color == "blue" || color == "green"
+    return color == "black" ||
+      color == "red" ||
+      color == "blue" ||
+      color == "green"
       ? "text-white"
       : "text-black";
   };
